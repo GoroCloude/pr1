@@ -2,8 +2,10 @@
   "name": "pr1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
+    "build": "tsc",
+    "start": "tsc && npx serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/GoroCloude/pr1/issues"
   },
-  "homepage": "https://github.com/GoroCloude/pr1#readme"
+  "homepage": "https://github.com/GoroCloude/pr1#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
